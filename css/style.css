@@ -1,0 +1,52 @@
+body {
+    margin: 60px auto;
+    width: 70%;
+	max-width: 950px;
+	text-align: center;
+	color: white;
+	background-color: rgb(59, 119, 119);
+}
+
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+p, button, input {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: white;
+	margin-bottom:1em;
+}
+
+#reset { 
+	color: black;
+	padding: 0.2em 0.8em;
+}
+
+#gameBoard {
+	position:relative;
+	padding: 0.5em;
+	padding-top: 2em;
+   	margin: 3em auto;
+	width: 400px;
+	height: 435px;
+	background-color: rgb(228, 228, 228);
+}
+
+#gameBoard div {
+	width: 40px;
+	height: 40px;
+	background-color: rgba(53, 103, 183, 0.6);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin: 0.2em;
+	padding: 0;
+	border: 1px solid #ddd;
+}
+
+#gameBoard div:hover {
+	border: 1px solid lightsalmon;
+	background-color: lightsalmon;
+}
